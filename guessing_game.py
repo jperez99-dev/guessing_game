@@ -18,6 +18,7 @@ def guessNumber():
                 
                 print("Congrats you guessed right!")
                 print(f"It took you {count} tries")
+                print("Thanks for playing!")
                 break
             elif guess < randomNumber:
                     print("It's higher")
